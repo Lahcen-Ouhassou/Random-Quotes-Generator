@@ -10,7 +10,7 @@ Check it out here:
 ## Features
 
 - Displays a new random quote on each click
-- Built with vanilla JavaScript, HTML, and CSS
+- Built with JavaScript, HTML, CSS, and Bootstrap 
 - Clean and responsive design
 
 ## Technologies Used
