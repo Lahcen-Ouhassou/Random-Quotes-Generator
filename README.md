@@ -21,7 +21,7 @@ Check it out here:
 
 ## How to Use
 
-1. Click the "Generate Quote" button
+1. Click the "Generate" button
 2. A new quote will appear each time
 
 ## Author
