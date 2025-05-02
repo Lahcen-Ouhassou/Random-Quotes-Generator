@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Random Quotes Generator</title>
+  </head>
+  <body>
+    <div class="card offset-3 col-6 mt-5" style="border: none">
+      <div
+        class="card-header bg-dark d-flex align-items-center justify-content-between"
+        style="
+          background: #7d7575;
+          background: linear-gradient(
+            90deg,
+            rgba(20, 131, 153, 1) 0%,
+            rgba(44, 44, 176, 1) 57%,
+            rgba(125, 117, 117, 1) 100%
+          );
+        "
+      >
+        <span
+          ><i class="fa-solid fa-quote-left"></i> Random Quotes Generator
+          <i class="fa-solid fa-quote-right"></i
+        ></span>
+        <button
+          class="btn bg-light float"
+          onclick="generate()"
+          style="font-size: 17px; font-family: auto"
+        >
+          Generate
+        </button>
+      </div>
+      <div class="card-body">
+        <div class="quote-container">
+          <p id="quote">Here will be the quote</p>
+          <i
+            class="fas fa-copy"
+            id="copyIcon" 
+            onclick="copyText()"
+            style="
+              margin-bottom: 4px;
+              cursor: pointer;
+              font-size: 20px;
+              display: inline-flex;
+            "
+          >
+            <p
+              id="copyIcon"
+              style="
+                font-family: auto;
+                padding-left: 5px;
+                padding-top: 3px;
+                font-size: 17px;
+              "
+            >
+              Copier
+            </p>
+          </i>
+        </div>
+      </div>
+    </div>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>

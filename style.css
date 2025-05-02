@@ -1,0 +1,58 @@
+
+.quote-container {
+  display: flex;
+  align-items: center;
+  color: rgba(20, 131, 153, 1);
+}
+body {
+  background: #7d7575;
+  background: linear-gradient(
+    90deg,
+    rgba(125, 117, 117, 1) 0%,
+    rgba(44, 44, 176, 1) 57%,
+    rgba(20, 131, 153, 1) 100%
+  );
+}
+/* Styling quote text */
+p {
+  color: rgba(20, 131, 153, 1);
+  font-size: 20px;
+  padding-left: 8px;
+  margin-right: 10px; 
+}
+
+.copy-icon {
+  padding-bottom: 14px;
+  cursor: pointer;
+  font-size: 20px;
+  color: rgba(20, 131, 153, 1);
+}
+.copy-icon:hover {
+  color: rgba(20, 131, 153, 1) !important;
+}
+
+/* Header styling */
+div.card-header {
+  color: white;
+}
+
+button:hover {
+  color: black !important;
+}
+.mt-5 {
+  margin-top: 19rem !important;
+}
+#copyIcon:active {
+  color: #7d7575 !important;
+}
+
+.float {
+  transition: 0.5s, color 0.1s;
+  -webkit-transition: 0.5s, color 0.1s;
+  -moz-transition: 0.5s, color 0.1s;
+}
+.float:active {
+  transform: translate(0px, 3px);
+  -webkit-transform: translate(0px, 5px);
+  -moz-transform: translate(0px, 5px);
+}
