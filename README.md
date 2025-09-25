@@ -18,6 +18,7 @@ Check it out here:
 - *HTML*
 - *CSS*
 - *JavaScript*
+- Bootstrap
 
 ## How to Use
 
